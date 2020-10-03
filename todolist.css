@@ -1,0 +1,80 @@
+#container{
+	box-shadow: 0 0 3px rbg(0,0,0, 0.1);
+	width: 360px;
+	margin-top: 100px;
+	margin-right: auto;
+margin-left: auto;
+	background: #f7f7f7;
+}
+.completed{
+	color: gray;
+	text-decoration: line-through;
+
+}
+h1{
+	background-color: #2980b9;
+	font-weight: normal;
+	padding: 10px;
+	margin-bottom: 0px;
+	color: white;
+	font-size: 22px;
+
+
+}
+.fa-plus{
+	float: right;
+}
+span{
+	background: #e74c3c;
+	height: 40px;
+	margin-right: 20px;
+	color: white;
+	width: 0;
+	display: inline-block;
+	text-align: center;
+	transition: 0.2s linear;
+}
+li:hover span{
+	width: 40px;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+li{
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+}
+li:nth-child(2n){
+	background: #f7f7f7;
+}
+
+input{
+	background: #f7f7f7;
+	line-height: 15px;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	font-size: 18px;
+	color: #2980b9;
+
+}
+input:focus{
+	background: #fff;
+	border-color: #2980b9;
+	border-style: solid;
+	border-width: 3px;
+	outline: none;
+
+
+}
+body{
+	background: #C6FFDD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
